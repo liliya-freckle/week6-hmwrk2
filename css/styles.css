@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 80px 3fr 120px;
+    margin: 0 auto;
+}
+
+.shapka {
+    display: grid;
+    background-color: rgb(192, 191, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+
+}
