@@ -8,6 +8,9 @@
     }
 .container {
     display: grid;
+    max-width: 1200px;
+
+
 }
 
 .header {
@@ -23,23 +26,19 @@
 .main {
     display: grid;
     grid-template-columns: 60% 40%;
-    gap: 20px;
-    border: 1px solid green;
-    
+        
 }
 
 .main_left {
     display: grid;
     padding-top: 20px ;
     grid-template-columns: 1fr;
-    border: 1px solid rgb(216, 200, 59);
 
 }
 .extras {
     display: grid;
     padding-top: 80px;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid rgb(224, 44, 119);
     gap: 10px;
 
     }
@@ -58,8 +57,7 @@
 .aside {
     padding-top: 20px ;
     background-color: rgb(173, 206, 160);
-    border: 1px solid rgb(113, 44, 224);
-    
+        
 }
 
 .footer {
